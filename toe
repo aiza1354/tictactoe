@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class tictactoe {
+
+    public String[][] StringArray = new String[3][3];
+
+    public static void printGrid (String[][] StringArray){
+        for (int i = 0; i < 3; i++){
+            System.out.println(StringArray[i][0] + " " + StringArray[i][1] +" " + StringArray[i][2]);
+        }
+    }
+
+    public static void main (String [] args){
+        String [][] StringArray = {{"_" , "_" , "_"} , {"_" , "_" , "_"} , {"_" , "_" , "_"}}; //grid array
+        printGrid(StringArray);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your input: X or O. For Column 0,0");
+        
+        if (Scanner.equals == "X") {
+            System.out.printLn(""); 
+        } 
+        
+    }
+
+
+
+
+
+}
